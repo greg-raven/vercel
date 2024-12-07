@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Greg Raven&rsquo;s link farm</title>
+    <!-- #bbinclude "icons.incl" -->
+<!-- #bbpragma ignore_errors="on" --><link rel="apple-touch-icon" sizes="180x180" href="/_assets/siteicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/siteicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/siteicons/favicon-16x16.png"><link rel="manifest" href="/_assets/siteicons/site.webmanifest"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><!-- #bbpragma ignore_errors="off" -->
+<!-- end bbinclude -->
+    <style>
+        img {
+            max-height: 100%;
+            max-width: 90%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <figure><img src="/_assets/img/gadsden-flag.jpg" alt="Gadsden Flag - Don't Tread on Me"></figure>
+    <script>
+        var pages = [
+            "neocities.html",
+            "raven-farms.html",
+            "raven-story.html",
+            "wahoo.html"
+        ];
+
+        function randomPage() {
+            return pages[Math.floor(Math.random() * Math.floor(pages.length))];
+        }
+
+        setTimeout(function() {
+            location.href = randomPage();
+        }, 250); // 1000 milliseconds = 1 second
+    </script>
+</body>
+
+</html>

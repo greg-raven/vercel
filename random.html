@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- #bbinclude "meta.incl" -->
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script><meta name="author" content="Greg Raven, copyright 2024"><meta name="description" content="personal website for Greg Raven"><meta name="keywords" content="Greg Raven, Apple Valley, California, cars, computers, comedy, controversy"><meta name="generator" content="BBEdit"><link href="https://gregraven.infinityfreeapp.com/random.html" rel="canonical"><link href="/humans.txt" rel="author" type="text/plain">
+<!-- end bbinclude -->
+	<title>Surprise me</title>
+	<meta name="description" content="Load a random page after this one loads." />
+	<meta name="author" content="Greg Raven" />
+</head>
+<body onload="main()">
+<script>
+	function redirectToRandomPage() {
+	    const pages = [
+	        "/humans.txt",
+	        "/index.html",
+	        "https://bbedit-guide.netlify.app",
+	        "https://gregraven.alwaysdata.net",
+	        "https://gregraven.infinityfreeapp.com",
+	        "https://gregraven.alwaysdata.net",
+	        "https://gregraven.neocities.org",
+	        "https://gregraven.wordpress.com",
+	        "https://weathernewsblog.wordpress.com",
+	        "https://www.162435.club",
+	        "https://www.corax.org",
+	        "https://www.department21.org",
+	        "https://www.gab.com/gregraven",
+	        "https://www.glocknut.com",
+	        "https://www.greg-raven.com",
+	        "https://www.gregraven.info",
+	        "https://www.gregraven.net",
+	        "https://www.gregraven.org",
+	        "https://www.gregraven.us",
+	        "https://www.gregraven.vip",
+	        "https://www.gregraven.website",
+	        "https://www.hatefacts.com",
+	        "https://www.hdcycling.org",
+	        "https://www.hdtennis.com",
+	        "https://www.heeled.website",
+	        "https://www.impeachment.network",
+	        "https://www.infogristle.com",
+	        "https://www.one-armed-man.com",
+	        "https://www.trigger-treat.com",
+	        "https://www.waterwedoing.website",
+	        "https://twitter.com/gregraven"
+	    ];
+
+	    const randomIndex = Math.floor(Math.random() * pages.length);
+	    const randomPage = pages[randomIndex];
+
+	    // Check if the URL is an external link
+	    if (randomPage.startsWith("http")) {
+	        window.location.href = randomPage;
+	    } else {
+	        // Redirect to local path
+	        window.location.pathname = randomPage;
+	    }
+	}
+
+	redirectToRandomPage();
+</script>
+</body>
+</html>
