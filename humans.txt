@@ -1,50 +1,50 @@
 /* TEAM */
 Ibis: Greg Raven
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Narthex: Dik Dik, Boy from Africa
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Hautboy: Victor Max
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Sackbut: Secretary-General Joseph Hill
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Sanctum: Hugh Cant
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Jester: Anne T. Gravity
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 Grand Curator: Bumper "Beanpole" Blimpley
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 His Excellency the President for Life: Field Marshall Al-Hadji Doctor Raven Dada, LLD, PhD, BVD, LSD, APD, Conqueror of the British Empire in Africa in General and Uganda in Specific
-Site: https://en.gravatar.com/gregraven
-Gab: https://www.gregraven.online
+Site: https://www.gregraven.online
+X: @gregraven
 Location: California
 
 /* THANKS */
-Name: Mom
+Name: Mom and Cloudflare
 
 /* SITE */
 Language:  English
 Doctype: HTML5
 Standards: HTML5, CSS3, JavaScript
-Components: jQuery, Bootstrap
-Software: BBEdit, Pixelmator Pro
+Components: Bootstrap, Datatables, Edward Tufte, jQuery, Mathjax
+Software: BBEdit, Codekit, Pixelmator Pro, Scrutiny
