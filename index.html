@@ -1,65 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<!-- #bbinclude "verizon-meta.incl" -->
-<!-- #bbpragma doctype="html5" root_element="head" encoding="utf-8" --><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="/_assets/css/verizon.css"><script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<title>Greg Raven&rsquo;s link farm</title>
+<!-- #bbinclude "icons.incl" -->
+<!-- #bbpragma ignore_errors="on" --><link rel="apple-touch-icon" sizes="180x180" href="/_assets/siteicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/siteicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/siteicons/favicon-16x16.png"><link rel="manifest" href="/_assets/siteicons/site.webmanifest"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><!-- #bbpragma ignore_errors="off" -->
 <!-- end bbinclude -->
-	<title>Frontier / Verizon claim</title>
-	<link rel="icon" type="image/png" href="/_assets/siteicons/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/_assets/siteicons/favicon.svg" />
-<link rel="icon" href="/_assets/siteicons/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/_assets/siteicons/apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="Vercel" />
-<link rel="manifest" href="/_assets/siteicons/site.webmanifest" />
-
+	<style>		img {
+		    max-height: 100%;
+		    max-width: 90%;
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    margin: auto;
+		}
+</style>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-<!-- #bbinclude "verizon-header.incl" -->
-<!-- #bbpragma doctype="html5" root_element="body" encoding="utf-8" -->
-<header>
-	<h1>
-		Frontier / Verizon claim <small>(February 18, 2026)</small>
-	</h1>
-	<p class="lead">
-		Claim Number: 9510238308
-	</p>
-</header>
-<!-- end bbinclude -->
-			<main>
-				<h2>
-					Introduction
-				</h2>
-				<p>
-					We writing to ask that Verizon reimburse us $4,295.00 for losses due to damage to our electric gate opener caused by Frontier Internet/TV salespeople posing as <q>service workers</q> at 15805 Saint Timothy Rd, Apple Valley, CA 92307.
-				</p>
-				<ul>
-					<li><a href="/20260122-initial-damage/index.html">Initial damage</a> (January 22, 2026)</li>
-					<li><a href="/20260204-subsequent-damage/index.html">Subsequent damage</a> (February 4, 2026)</li>
-					<li><a href="/20260206-remedy-attempts/index.html">First remedy attempts</a> (February 6, 2026)</li>
-					<li><a href="/20260210-first-repair-attempt/index.html">First technician repair attempt</a> (February 10, 2026)</li>
-					<li><a href="/20260210-our-first-letter/index.html">We contact Verizon by mail</a> (February 10, 2026)</li>
-					<li><a href="/20260217-gate-motor-replacement/index.html">Gate motor replacement</a> (February 17, 2026)</li>
-					<li><a href="/20260305-response/index.html">Verizon&rsquo;s first response</a> (March 5, 2026)</li>
-					<li><a href="/accounting/index.html">Accounting and reimbursement</a></li>
-				</ul>
-				<p>
-					Greg and Laura Raven<br>
-					20258 US Highway 18 Ste 430#513<br>
-					Apple Valley, CA 92307<br>
-					760-242-5798 (home)<br>
-					760-646-1728 (cell)<br>
-					gregraven at mac dot com
-				</p>
-			</main>
-		</div>
-	</div>
-</div>
-<!-- #bbinclude "verizon-footer-js.incl" -->
-<!-- #bbpragma doctype="html5" root_element="body" encoding="utf-8" -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<!-- end bbinclude -->
+<figure>
+	<img src="/_assets/img/gadsden-flag.jpg" alt="Gadsden Flag - Don't Tread on Me">
+</figure>
+<script>
+	var pages = [
+	    "neocities.html",
+	    "raven-farms.html",
+	    "raven-story.html",
+	    "wahoo.html"
+	];
+
+	function randomPage() {
+	    return pages[Math.floor(Math.random() * Math.floor(pages.length))];
+	}
+
+	setTimeout(function() {
+	    location.href = randomPage();
+	}, 250); // 1000 milliseconds = 1 second
+</script>
 </body>
 </html>
