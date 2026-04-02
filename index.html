@@ -6,7 +6,8 @@
 <!-- #bbinclude "icons.incl" -->
 <!-- #bbpragma ignore_errors="on" --><link rel="apple-touch-icon" sizes="180x180" href="/_assets/siteicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/siteicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/siteicons/favicon-16x16.png"><link rel="manifest" href="/_assets/siteicons/site.webmanifest"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><!-- #bbpragma ignore_errors="off" -->
 <!-- end bbinclude -->
-	<style>		img {
+	<style>
+		img {
 		    max-height: 100%;
 		    max-width: 90%;
 		    position: absolute;
@@ -16,27 +17,31 @@
 		    right: 0;
 		    margin: auto;
 		}
-</style>
+	</style>
 </head>
 <body>
 <figure>
 	<img src="/_assets/img/gadsden-flag.jpg" alt="Gadsden Flag - Don't Tread on Me">
 </figure>
 <script>
-	var pages = [
-	    "neocities.html",
-	    "raven-farms.html",
-	    "raven-story.html",
-	    "wahoo.html"
+	var location;
+	var setTimeout;
+	const pages = [
+	    "https://gravatar.com/profile",
+	    "https://greg-raven.github.io/greg-raven/index.html",
+	    "https://gregraven.neocities.org/neocities.html",
+	    "https://gregraven.netlify.app/gregraven.html",
+	    "https://gregraven.pages.dev/gregraven.html",
+	    "https://raven-farms.netlify.app/raven-farms.html",
+	    "https://raven-story.netlify.app/raven-story.html",
+	    "https://raven-wahoo.netlify.app/wahoo.html"
 	];
-
 	function randomPage() {
-	    return pages[Math.floor(Math.random() * Math.floor(pages.length))];
+	    return pages[Math.floor(Math.random() * pages.length)];
 	}
-
-	setTimeout(function() {
+	setTimeout(function () {
 	    location.href = randomPage();
-	}, 250); // 1000 milliseconds = 1 second
+	}, 250);  // 1000 milliseconds = 1 second
 </script>
 </body>
 </html>

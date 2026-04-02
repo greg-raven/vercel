@@ -575,15 +575,6 @@ a:visited { color: #a5424b; }
 	font-size: 1.8em;
 }
 
-.welcome
-{
-	background: #daeea5 url(https://gregraven.alwaysdata.nethttps://gregraven.alwaysdata.net/img/welcomingcat.png) no-repeat;
-	background-position: 20px center;
-	background-size: 77px 81px;
-	padding: 20px 20px 20px 111px;
-	margin-bottom: 13px;
-}
-
 @media (max-device-width:480px), screen and (max-width:800px)
 {
 	.welcome
@@ -597,20 +588,6 @@ a:visited { color: #a5424b; }
 {
 	font-size: 1.2em;
 	margin-bottom: .5em;
-}
-
-.misc-icon
-{
-	background: url(https://gregraven.alwaysdata.net/img/misc-file.png) no-repeat 0 0;
-	width: 67px;
-	height: 67px;
-	display: block;
-	padding-top: 35px;
-	font-size: 14px;
-	color: silver;
-	font-weight: 700;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 @media (min-width:1200px)

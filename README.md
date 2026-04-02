@@ -1,1 +1,1 @@
-# InfinityFree
+# Vercel
