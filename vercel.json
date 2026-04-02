@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/favicon-96x96.png",
+      "destination": "/_assets/siteicons/favicon-96x96.png"
+    },
+    {
+      "source": "/favicon.svg",
+      "destination": "/_assets/siteicons/favicon.svg"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/_assets/siteicons/favicon.ico"
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "destination": "/_assets/siteicons/apple-touch-icon.png"
+    },
+    {
+      "source": "/site.webmanifest",
+      "destination": "/_assets/siteicons/site.webmanifest"
+    }
+
+  ]
+}
