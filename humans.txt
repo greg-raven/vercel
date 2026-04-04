@@ -51,5 +51,5 @@ Name: Mom and Cloudflare
 Language:  English
 Doctype: HTML5
 Standards: HTML5, CSS3, JavaScript
-Components: Bootstrap, Datatables, Edward Tufte, jQuery, Mathjax
+Components: Bootstrap, Datatables, Edward Tufte, jQuery, Mathjax, RealFaviconGenerator
 Software: BBEdit, Codekit, Pixelmator Pro, Scrutiny
